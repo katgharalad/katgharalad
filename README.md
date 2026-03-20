@@ -63,3 +63,176 @@ flowchart LR
     D --> E[Spatial Relationship Engine]
     E --> F[Risk Classification]
     F --> G[REC / ESA Finding]
+
+Here is the **continuation after your Mermaid block**, clean and copy-paste ready:
+
+```html
+```
+
+</details>
+
+---
+
+<table>
+<tr>
+<td width="100%">
+
+### Mentor Connector
+
+Matching system for founders ↔ mentors using hybrid retrieval.
+
+* Combines dense embeddings (semantic similarity) + BM25 (lexical ranking)
+* Ranking and filtering pipeline for high-precision matching
+* Handles both structured and unstructured profile data
+* Designed to avoid noisy keyword-only matches
+
+**Technical Stack**
+
+* Python
+* Vector embeddings
+* BM25 (information retrieval)
+* REST APIs
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="100%">
+
+### TSheets Processing System
+
+Operational ETL pipeline for time and work logs.
+
+* Ingests raw logs → cleans → normalizes → structures
+* Handles inconsistent schemas and noisy inputs
+* Outputs analytics-ready datasets for downstream workflows
+
+**Technical Stack**
+
+* Python
+* SQL
+* ETL pipelines
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="100%">
+
+### LateGrub
+
+Full-stack food ordering platform.
+
+* Real-time order flow and backend handling
+* Authentication, session management, database integration
+* Built with focus on system design and execution
+
+**Technical Stack**
+
+* JavaScript
+* Backend APIs
+* Database systems
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="100%">
+
+### OPEF Website
+
+Product-facing system for technical and non-technical users.
+
+* Communicates environmental analysis workflows clearly
+* Built for demos, pilots, and stakeholder onboarding
+* Structured for clarity and conversion
+
+**Technical Stack**
+
+* React
+* Frontend systems
+* Deployment pipelines
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technical Scope
+
+<table>
+<tr>
+<td width="50%">
+
+### Languages
+
+Python
+C++
+SQL
+R
+Scheme
+JavaScript
+
+### Machine Learning
+
+Scikit-learn
+TensorFlow
+Computer Vision
+Geospatial ML
+
+</td>
+<td width="50%">
+
+### Infra / Systems
+
+AWS (S3, Lambda)
+Azure
+Linux
+Scripting and automation
+ETL pipelines
+REST APIs
+
+### Geospatial / APIs
+
+Google Earth Engine
+NASA Earthdata
+Copernicus
+Sentinel
+GEDI
+EPA datasets
+
+</td>
+</tr>
+</table>
+
+---
+
+## Focus
+
+* Systems over scripts
+* Real data over toy datasets
+* Speed and execution
+* Traceable, production pipelines
+
+---
+
+## Contact
+
+[aarav@opef.ai](mailto:aarav@opef.ai)
+
+```
+```
+
