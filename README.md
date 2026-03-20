@@ -1,55 +1,110 @@
 # Aarav Singh
 
-AI systems for real-world operations.
+Building systems that turn unstructured data into decision pipelines.
 
 ---
 
-## What I Build
+## Work
 
-- Environmental intelligence (MRV, ESA automation)
-- Data pipelines from messy → structured → decision-ready
-- ML systems with measurable impact
+### OPEF – Phase I ESA Automation
+End-to-end system for automating environmental due diligence (Phase I ESA).
 
----
+- Parses regulatory + environmental datasets (EPA, state records, geospatial sources)
+- Builds **evidence graph**:
+  raw record → extracted fact → canonical entity → spatial relation → risk classification
+- Automates REC (Recognized Environmental Condition) identification
+- Integrated geospatial + document analysis pipeline
 
-## Key Work
+**Impact:**  
+$3000 / 2 weeks → ~$500 / <10 hours
 
-**OPEF (Environmental AI)**
-- Automated Phase I ESA analysis  
-- $3000 / 2 weeks → ~$500 / <10 hours  
-- Built traceable evidence-based reasoning system  
-
-**Carbon MRV Pipeline**
-- Satellite-driven analysis (Sentinel-2, GEDI, MODIS)  
-- NDVI, carbon estimation, disturbance tracking  
-- Modular multi-agent architecture  
-
-**Search System**
-- Hybrid retrieval (Embeddings + BM25)  
-- Fixed semantic-only failure on keyword-heavy queries  
-- Shipped + demo in 48 hours  
-
-**Predictive Maintenance**
-- Random Forest model (~99% accuracy)  
-- Streamlit app with real-time predictions  
+**Stack:**  
+Python, FastAPI, AWS (S3, Lambda), Postgres  
+Geospatial: GEE, Sentinel-2, GEDI, EPA APIs  
+NLP: embeddings + rule-based extraction  
 
 ---
 
-## Stack
+### Mentor Connector
+Matching system for founders ↔ mentors.
 
-Python, C++, SQL  
+- Hybrid retrieval:
+  - Dense embeddings (semantic similarity)
+  - BM25 (lexical relevance)
+- Ranking + filtering pipeline for precision matching
+- Designed for structured + unstructured profile data
+
+**Stack:**  
+Python, vector embeddings, BM25 (IR models), REST APIs  
+
+---
+
+### TSheets Processing System
+Operational data pipeline for time/work tracking.
+
+- Ingests raw logs → cleans → normalizes → structures
+- Handles inconsistent schema + noisy inputs
+- Outputs analytics-ready datasets for downstream systems
+
+**Stack:**  
+Python, SQL, ETL pipelines  
+
+---
+
+### LateGrub
+Full-stack food ordering platform.
+
+- Real-time order flow + backend handling
+- Auth, session handling, database integration
+- Focus on system design + product execution
+
+**Stack:**  
+JavaScript, backend APIs, database systems  
+
+---
+
+### OPEF Website
+Product-facing system for technical + non-technical users.
+
+- Communicates complex environmental analysis workflows
+- Structured UI for demos, pilots, and stakeholder onboarding
+
+**Stack:**  
+React / frontend systems, deployment pipelines  
+
+---
+
+## Technical Scope
+
+**Languages:**  
+Python, C++, SQL, R, Scheme, JavaScript  
+
+**Machine Learning:**  
 Scikit-learn, TensorFlow  
-GEE, NASA Earthdata, Copernicus  
-FastAPI, Streamlit, AWS  
+Computer Vision, geospatial ML, classification systems  
+
+**Data / Infra:**  
+AWS (S3, Lambda), Azure  
+Linux systems, scripting, automation  
+
+**Geospatial / APIs:**  
+Google Earth Engine  
+NASA Earthdata, Copernicus, Sentinel, GEDI  
+EPA + environmental regulatory datasets  
+
+**Systems:**  
+FastAPI, Streamlit  
+ETL pipelines, REST APIs  
+Vector search + IR systems  
 
 ---
 
 ## Focus
 
-Building systems that:
-- work on real data  
-- scale  
-- produce usable outputs  
+- Systems over scripts  
+- Real data, not toy datasets  
+- Speed + execution under constraints  
+- Traceable, production-oriented pipelines  
 
 ---
 
