@@ -64,9 +64,6 @@ flowchart LR
     E --> F[Risk Classification]
     F --> G[REC / ESA Finding]
 
-Here is the **continuation after your Mermaid block**, clean and copy-paste ready:
-
-```html
 ```
 
 </details>
