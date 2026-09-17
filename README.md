@@ -1,6 +1,6 @@
 <h1 align="center">Aarav Singh</h1>
 <p align="center">
-  <b>Building systems that turn unstructured data into decision pipelines.</b>
+  <b>I try my best.</b>
 </p>
 
 <p align="center">
