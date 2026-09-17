@@ -26,48 +26,6 @@
 ## Work
 
 <table>
-<tr>
-<td width="100%">
-
-### OPEF – Phase I ESA Automation
-
-End-to-end system for automating environmental due diligence workflows for **Phase I Environmental Site Assessments**.
-
-- Parses regulatory and environmental datasets from **EPA**, state records, and geospatial sources
-- Builds an **evidence graph** to connect:
-  `raw record → extracted fact → canonical entity → spatial relation → risk classification`
-- Automates **REC (Recognized Environmental Condition)** identification
-- Integrates document analysis, geospatial screening, and structured reasoning into one pipeline
-
-**Impact**  
-`$3000 / 2 weeks → ~$500 / <10 hours`
-
-**Technical Stack**
-- **Backend:** Python, FastAPI
-- **Cloud / Infra:** AWS S3, AWS Lambda, PostgreSQL
-- **Geospatial:** Google Earth Engine, Sentinel-2, GEDI, EPA APIs
-- **Extraction / NLP:** embeddings, rule-based extraction, document parsing
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>View technical flow</b></summary>
-
-```mermaid
-flowchart LR
-    A[Raw Regulatory / Environmental Data] --> B[Parsing + Extraction]
-    B --> C[Extracted Facts]
-    C --> D[Canonical Entity Resolution]
-    D --> E[Spatial Relationship Engine]
-    E --> F[Risk Classification]
-    F --> G[REC / ESA Finding]
-
-```
-
-</details>
-
 ---
 
 <table>
@@ -168,7 +126,7 @@ Product-facing system for technical and non-technical users.
 
 ---
 
-## Technical Scope
+## Technical 
 
 <table>
 <tr>
@@ -216,17 +174,6 @@ EPA datasets
 </table>
 
 ---
-
-## Focus
-
-* Systems over scripts
-* Real data over toy datasets
-* Speed and execution
-* Traceable, production pipelines
-
----
-
-## Contact
 
 [aarav@opef.ai](mailto:aarav@opef.ai)
 
