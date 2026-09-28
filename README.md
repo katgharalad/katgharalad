@@ -1,52 +1,193 @@
-<h1 align="center">Aarav Singh</h1>
-<p align="center">
-  <b>I try my best.</b>
+<!-- =========================================================
+     AARAV SINGH — GITHUB PROFILE
+     Theme: Roman editorial × modern systems engineering
+     ========================================================= -->
+
+<div align="center">
+
+<br>
+
+<table>
+<tr>
+<td width="42%" align="center">
+
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Bust_of_Caesar.jpg"
+  width="260"
+  alt="Julius Caesar"
+/>
+
+</td>
+
+<td width="58%" valign="middle">
+
+<h1>AARAV SINGH</h1>
+
+<h3>
+Computer Science · Machine Learning · Systems
+</h3>
+
+<p>
+I build software that removes work.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=FFD43B" />
-  <img src="https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2B%2B&logoColor=00599C" />
-  <img src="https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=336791" />
-  <img src="https://img.shields.io/badge/R-111827?style=for-the-badge&logo=r&logoColor=276DC3" />
-  <img src="https://img.shields.io/badge/Scheme-111827?style=for-the-badge&logo=gnu&logoColor=A42E2B" />
-  <img src="https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624" />
+<p>
+<code>PER ARDUA</code>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-0F172A?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
-  <img src="https://img.shields.io/badge/Azure-0F172A?style=for-the-badge&logo=microsoftazure&logoColor=0078D4" />
-  <img src="https://img.shields.io/badge/FastAPI-0F172A?style=for-the-badge&logo=fastapi&logoColor=009688" />
-  <img src="https://img.shields.io/badge/TensorFlow-0F172A?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-0F172A?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+<p>
+<a href="mailto:aarav@opef.ai">EMAIL</a>
+&nbsp;·&nbsp;
+<a href="https://opef.ai">OPEF</a>
+&nbsp;·&nbsp;
+<a href="https://timebot3001.azurewebsites.net/">TIMEBOT</a>
 </p>
 
+</td>
+</tr>
+</table>
+
+<br>
+
+<sub>
+BUILD SYSTEMS &nbsp; / &nbsp; REMOVE FRICTION &nbsp; / &nbsp; KEEP THE RECEIPTS
+</sub>
+
+</div>
+
 ---
 
-## Work
+## I
 
-<table>
+### What I work on
+
+I am interested in systems where software can perform large amounts of
+human work while keeping enough structure, provenance, and evidence to
+explain what happened later.
+
+My work currently sits around:
+
+`AI systems` · `retrieval` · `automation` · `data infrastructure` ·
+`environmental intelligence` · `machine learning`
+
 ---
+
+## II
+
+### Selected Systems
 
 <table>
 <tr>
-<td width="100%">
+<td width="50%" valign="top">
 
-### Mentor Connector
+<h3>OPEF</h3>
 
-Matching system for founders ↔ mentors using hybrid retrieval.
+<b>Environmental intelligence infrastructure.</b>
 
-* Combines dense embeddings (semantic similarity) + BM25 (lexical ranking)
-* Ranking and filtering pipeline for high-precision matching
-* Handles both structured and unstructured profile data
-* Designed to avoid noisy keyword-only matches
+<br><br>
 
-**Technical Stack**
+Building an AI-native system for environmental review and permitting.
 
-* Python
-* Vector embeddings
-* BM25 (information retrieval)
-* REST APIs
+The platform combines structured environmental datasets, repeatable
+workflows, retrieval, evidence tracking, and AI-assisted analysis.
+
+<br><br>
+
+<code>AI</code>
+<code>Retrieval</code>
+<code>Geospatial</code>
+<code>React</code>
+<code>Python</code>
+<code>Cloud</code>
+
+<br><br>
+
+<a href="https://opef.ai"><b>opef.ai →</b></a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Mentor Connector</h3>
+
+<b>Founder ↔ mentor recommendation system.</b>
+
+<br><br>
+
+Built for Rev1 Ventures to automate mentor matching across startup
+cohorts.
+
+Founder profiles are enriched, embedded, retrieved from Pinecone,
+scored against mentor capabilities, and returned with explainable
+matching information.
+
+<br><br>
+
+<code>FastAPI</code>
+<code>OpenAI</code>
+<code>Pinecone</code>
+<code>Salesforce</code>
+<code>React</code>
+<code>Azure</code>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>TimeBot 3001</h3>
+
+<b>Operational time-processing automation.</b>
+
+<br><br>
+
+Built during my work at Rev1 Ventures to automate the movement and
+processing of operational time data.
+
+Designed around API integration, normalization, validation, and
+repeatable processing instead of manual administrative work.
+
+<br><br>
+
+<code>Python</code>
+<code>Microsoft Graph</code>
+<code>APIs</code>
+<code>Automation</code>
+<code>Azure</code>
+
+<br><br>
+
+<a href="https://timebot3001.azurewebsites.net/"><b>Open system →</b></a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Environmental Retrieval</h3>
+
+<b>Evidence before generation.</b>
+
+<br><br>
+
+Retrieval architecture for environmental and regulatory information
+using lexical search, embeddings, rank fusion, metadata filters, and
+source provenance.
+
+The objective is not simply to generate an answer. It is to preserve
+the evidence required to reconstruct that answer later.
+
+<br><br>
+
+<code>BM25</code>
+<code>Embeddings</code>
+<code>RRF</code>
+<code>Reranking</code>
+<code>Python</code>
 
 </td>
 </tr>
@@ -54,128 +195,88 @@ Matching system for founders ↔ mentors using hybrid retrieval.
 
 ---
 
+## III
+
+### Engineering
+
 <table>
 <tr>
-<td width="100%">
 
-### TSheets Processing System
+<td width="33%" valign="top">
 
-Operational ETL pipeline for time and work logs.
+#### Languages
 
-* Ingests raw logs → cleans → normalizes → structures
-* Handles inconsistent schemas and noisy inputs
-* Outputs analytics-ready datasets for downstream workflows
+`Python`
 
-**Technical Stack**
+`C++`
 
-* Python
-* SQL
-* ETL pipelines
+`SQL`
+
+`JavaScript / TypeScript`
+
+`R`
+
+`Scheme`
 
 </td>
+
+<td width="33%" valign="top">
+
+#### Systems
+
+`FastAPI`
+
+`React`
+
+`PostgreSQL`
+
+`REST APIs`
+
+`Linux`
+
+`Docker`
+
+`Azure`
+
+`AWS`
+
+</td>
+
+<td width="33%" valign="top">
+
+#### ML / Data
+
+`PyTorch / TensorFlow`
+
+`scikit-learn`
+
+`Vector Search`
+
+`Information Retrieval`
+
+`Time Series`
+
+`Geospatial Data`
+
+`ETL`
+
+</td>
+
 </tr>
 </table>
 
 ---
 
-<table>
-<tr>
-<td width="100%">
+## IV
 
-### LateGrub
+### Data I like working with
 
-Full-stack food ordering platform.
-
-* Real-time order flow and backend handling
-* Authentication, session management, database integration
-* Built with focus on system design and execution
-
-**Technical Stack**
-
-* JavaScript
-* Backend APIs
-* Database systems
-
-</td>
-</tr>
-</table>
-
----
-
-<table>
-<tr>
-<td width="100%">
-
-### OPEF Website
-
-Product-facing system for technical and non-technical users.
-
-* Communicates environmental analysis workflows clearly
-* Built for demos, pilots, and stakeholder onboarding
-* Structured for clarity and conversion
-
-**Technical Stack**
-
-* React
-* Frontend systems
-* Deployment pipelines
-
-</td>
-</tr>
-</table>
-
----
-
-## Technical 
-
-<table>
-<tr>
-<td width="50%">
-
-### Languages
-
-Python
-C++
-SQL
-R
-Scheme
-JavaScript
-
-### Machine Learning
-
-Scikit-learn
-TensorFlow
-Computer Vision
-Geospatial ML
-
-</td>
-<td width="50%">
-
-### Infra / Systems
-
-AWS (S3, Lambda)
-Azure
-Linux
-Scripting and automation
-ETL pipelines
-REST APIs
-
-### Geospatial / APIs
-
-Google Earth Engine
-NASA Earthdata
-Copernicus
-Sentinel
-GEDI
-EPA datasets
-
-</td>
-</tr>
-</table>
-
----
-
-[aarav@opef.ai](mailto:aarav@opef.ai)
-
-
-
+```text
+satellite imagery
+environmental records
+regulatory documents
+company data
+operational logs
+geospatial datasets
+time series
+unstructured text
