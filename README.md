@@ -1,11 +1,5 @@
 <div align="center">
 
-<img
-  src="https://m.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/museo_pio_clementino/04_02_cesare_chiaramonti.jpg/_jcr_content/renditions/cq5dam.web.820h.jpeg"
-  width="280"
-  alt="Julius Caesar"
-/>
-
 # Aarav Singh
 
 I like solving difficult problems with software.
